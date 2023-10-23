@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 
     <div class="wrapper">
         <div class="cover cover-left"></div>
-        <div class="cover cover-right turn"></div>
+        <div class="cover cover-right"></div>
 
         <div class="book">
             <!-- Introduction page -->
@@ -25,25 +25,25 @@
             </div>
 
             <!-- Page 1 & 2 -->
-            <div class="book-page page-right" id="turn-1">
+            <div class="book-page page-right turn" id="turn-1">
 
                 <!-- Page 1 (Inhalt)--> 
                 <div class="page-front">
-                    <h1 class="title">Contents</h1>
+                    <h1 class="title">Inhalt</h1>
 
                     <div class="struct-box">
                         <div class="struct-content">
-                            <h3>How to play</h3>
-                            <a href="#" id="gneralControl">- General Controls</a>
+                            <h3>Wie spielt man?</h3>
+                            <a href="#" id="gneralControl">- Steuerung</a>
                             <br>
-                            <a href="#">- 2</a>
+                            <a href="#" id="generalInfo">- generelle Infos</a>
                             <br>
                             <a href="#">- 3</a>
                             <br>
                             <a href="#">- 4</a>
                         </div>
                         <div class="struct-content">
-                            <h3>Plants</h3>
+                            <h3>Pflanzen</h3>
                             <a href="#">- 1</a>
                             <br>
                             <a href="#">- 2</a>
@@ -60,14 +60,20 @@
                     <span class="nextprev-btn" data-page="turn-1">-></span>
                 </div>
 
-                <!-- Page 2 (Wie Spielt man)--> 
+                <!-- Page 2 (Steuerung)--> 
                 <div class="page-back">
-                    <h1 class="title">General Controls</h1>
+                    <h1 class="title">Steuerung</h1>
 
                     <div class="struct-box">
                         <div class="struct-content">
-                            <h3>General Controls</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus id accusamus debitis aspernatur distinctio, quia sequi at ipsam ut numquam dicta magnam quod, voluptate unde ipsa ea ex a nobis?</p>
+                            <h3>Steuerung</h3>
+                            <p>Die Steuerung des Spiels ist nicht sonderlich kompliziert und schnell zu lernen.</p>
+                            <br>
+                            <p>Benutze W/A/S/D oder UP/DOWN/LEFT/RIGHT zum Bewegen. Mit 'SHIFT' kannst du rennen, doch sei gewarnt, du kannst nur für eine begrenzte Zeit rennen.</p>
+                            <br>
+                            <p>Mit 'I' öffnest du das Spielmenü. Von dort kannst du Codex, <a href="#" id="InventarBtn">Inventar</a> und die Spieleinstellungen öffnen</p>
+                            <br>
+                            <p>Mit 'E' interagiest du mit Gegenständen, Pflanzen, etc.</p>
                         </div>
                     </div>
 
@@ -77,6 +83,37 @@
                     <span class="nextprev-btn back" data-page="turn-1"><-</span>
                 </div>
             </div>
+
+            <!-- Page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- Page 3 -->
+                <div class="page-front">
+
+
+
+
+
+                    <span class="number-page">3</span>
+
+                    <!-- next Button -->
+                    <span class="nextprev-btn" data-page="turn-2">-></span>
+                </div>
+
+                <!-- Page 4 -->
+                <div class="page-back">
+
+
+
+
+
+                    <span class="number-page">4</span>
+
+                    <!-- prev Button -->
+                    <span class="nextprev-btn back" data-page="turn-2"><-</span>
+                </div>
+            </div>
+
+
         </div>
     </div>
 
