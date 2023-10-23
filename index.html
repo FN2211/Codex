@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right turn"></div>
+
+        <div class="book">
+            <!-- Introduction page -->
+            <div class="book-page page-left">
+                <div class="Introduction-page">
+                    <img src="assets/CodexImage.png" alt="">
+                    <h1>Flora & Fauna</h1>
+                    <h3>Codex</h3>
+
+                    <p>DESCRIPTION HERE Lorem ipsum dolor sit amet consectetur adipisicing elit. At non itaque mollitia molestias veritatis quaerat cum omnis, aspernatur officiis, perspiciatis labore dignissimos architecto corporis quidem, modi molestiae accusantium. Eos, architecto.</p>
+                </div>
+            </div>
+
+            <!-- Page 1 & 2 -->
+            <div class="book-page page-right" id="turn-1">
+
+                <!-- Page 1 (Inhalt)--> 
+                <div class="page-front">
+                    <h1 class="title">Contents</h1>
+
+                    <div class="struct-box">
+                        <div class="struct-content">
+                            <h3>How to play</h3>
+                            <a href="">- General Controls</a>
+                            <br>
+                            <a href="">- 2</a>
+                            <br>
+                            <a href="">- 3</a>
+                            <br>
+                            <a href="">- 4</a>
+                        </div>
+                        <div class="struct-content">
+                            <h3>Plants</h3>
+                            <a href="">- 1</a>
+                            <br>
+                            <a href="">- 2</a>
+                            <br>
+                            <a href="">- 3</a>
+                            <br>
+                            <a href="">- 4</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next Button -->
+                    <span class="nextprev-btn" data-page="turn-1">-></span>
+                </div>
+
+                <!-- Page 2 (Wie Spielt man)--> 
+                <div class="page-back">
+                    <h1 class="title">General Controls</h1>
+
+                    <div class="struct-box">
+                        <div class="struct-content">
+                            <h3>General Controls</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus id accusamus debitis aspernatur distinctio, quia sequi at ipsam ut numquam dicta magnam quod, voluptate unde ipsa ea ex a nobis?</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev Button -->
+                    <span class="nextprev-btn back" data-page="turn-1"><-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
