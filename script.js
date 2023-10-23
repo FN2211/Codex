@@ -40,6 +40,51 @@ GeneralControlBtn.onclick = () => {
         }
     })
 }
+//general info btn clicked
+const GeneralInfoBtn = document.getElementById('generalInfo');
+GeneralInfoBtn.onclick = () => {
+    pages.forEach((page, index) => {
+        if (index < 1) {
+            setTimeout(() => {
+                page.classList.add('turn');
+    
+                setTimeout(() => {
+                    page.style.zIndex = 20 + index;
+                }, 500)
+            }, (index + 1) * 200 + 100)
+        }
+    })
+}
+//UI btn clicked
+const UIBtn = document.getElementById('UI');
+UIBtn.onclick = () => {
+    pages.forEach((page, index) => {
+        if (index < 2) {
+            setTimeout(() => {
+                page.classList.add('turn');
+    
+                setTimeout(() => {
+                    page.style.zIndex = 20 + index;
+                }, 500)
+            }, (index + 1) * 200 + 100)
+        }
+    })
+}
+//Inventar btn clicked
+const InventarBtn = document.getElementById('InventarBtn');
+InventarBtn.onclick = () => {
+    pages.forEach((page, index) => {
+        if (index < 2) {
+            setTimeout(() => {
+                page.classList.add('turn');
+    
+                setTimeout(() => {
+                    page.style.zIndex = 20 + index;
+                }, 500)
+            }, (index + 1) * 200 + 100)
+        }
+    })
+}
 
 
 let totalPages = pages.length;
